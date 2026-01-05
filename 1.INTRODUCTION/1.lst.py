@@ -3,3 +3,6 @@ sum=0
 for temp in temperatures:
     sum+=temp
 print(f"The avg temperature is ",(sum/len(temperatures)))
+'''
+hjcghjl'mnkhggdghj'lm 
+'''
