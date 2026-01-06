@@ -11,7 +11,7 @@ npinsert(matrix,idx,[list],axis=0)
 import numpy as np
 arr=np.array([1,2,3,4,5,6,7,8,9,10])
 print(arr)
-new_arr=np.insert(arr,3,199,axis=0)
+new_arr=np.insert(arr,3,[10,20,30],axis=0) # number also allowedd
 print(new_arr)
 print()
 

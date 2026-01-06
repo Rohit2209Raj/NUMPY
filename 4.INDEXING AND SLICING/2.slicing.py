@@ -12,4 +12,4 @@ matrix=np.array([[10,20,30],
 print(arr[0:3])
 print(arr[-2:-5:-1])
 print()
-print(matrix[0:2:2,:])
+print(matrix[0:2:1,::2]) # note the difference 
