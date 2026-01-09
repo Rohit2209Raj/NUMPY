@@ -30,7 +30,8 @@ import numpy as np
 # # Extract all ages greater than 18. 
 
 # arr=np.array([34,53,23,45,33,23,21,21,12,3,4,78,56,73,21,22,1,2,2])
-# print(arr[arr>18])
+# print(arr[arr>18]) #acutlagy gives the arrray
+# print(arr>18) #print true and false
 
 
 
@@ -62,7 +63,7 @@ import numpy as np
 # # 8. Check whether an array contains any negative values. 
 # arr=np.array([10,2,3,5,-4,3])
 # # print(arr[arr<0])
-# print(np.any(arr<0))
+# print(np.any(arr<0))  #IMPORTANT AND NEW
 
 9
 
@@ -74,6 +75,7 @@ import numpy as np
 # print(np.sum(arr))
 # print(np.max(arr))
 # print(np.argmax(arr)) # returns highest day
+# print(np.argmin(arr))
 
 
 # 10.
@@ -204,7 +206,7 @@ import numpy as np
 
 # You have an array with repeated values.
 # Find all unique values and their counts.
-arr=np.array([1,1,2,3,4,5,5,5,6,7,8])
-# arr2=np.unique(arr)
-arr2,count=np.unique(arr,return_counts=True)
-print(arr2,count)
+# arr=np.array([1,1,2,3,4,5,5,5,6,7,8])
+# # arr2=np.unique(arr)
+# arr2,count=np.unique(arr,return_counts=True)
+# print(arr2,count)
