@@ -1,0 +1,1 @@
+print([np.argmax(np.unique_counts(arr))])

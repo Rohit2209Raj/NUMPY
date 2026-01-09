@@ -72,5 +72,6 @@ x' = x-min/(max-min)
 # print(np.sum(arr<np.mean(arr)))
 # 16. Given daily step counts of 30 days: 
 # • Find the longest streak of days with steps > 8000.
-arr=np.random.randint(5000,10000,30)
-print(np.unique_counts(arr))
+# arr=np.random.randint(5000,10000,30)
+# print(np.(arr))
+# use loops
